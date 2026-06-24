@@ -49,11 +49,11 @@ require_once __DIR__ . '/../layouts/header.php';
 
     <p class="auth-footer">No account? <a href="index.php?page=register">Register here</a></p>
 
-    <div class="hint-box">
+   <!-- <div class="hint-box">
         <strong>Demo credentials:</strong><br>
         Email: admin@example.com<br>
         Password: admin123
-    </div>
+    </div> --> 
 </div>
 
 <?php require_once __DIR__ . '/../layouts/footer.php'; ?>
