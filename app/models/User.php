@@ -10,7 +10,7 @@ class User
 
     //get all users
     public function all(): array {
-        $stmt->$this->db->query("SELECT id, name, email, role, created_at FROM users ORDER BY id DESC");
+        $stmt = $this->db->query("SELECT id, name, email, role, created_at FROM users ORDER BY id DESC");
         return $stmt->fetchAll();
     } 
 
