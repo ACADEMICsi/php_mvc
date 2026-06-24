@@ -2,7 +2,7 @@
 # PHP
 # =========================
 
-# Composer (if you add it later)
+# Composer 
 vendor/
 
 # Environment files
@@ -20,7 +20,7 @@ vendor/
 # Ignore local database dumps
 *.sql
 
-# Ignore uploaded files (if you add uploads later)
+# Ignore uploaded files 
 public/uploads/
 
 
