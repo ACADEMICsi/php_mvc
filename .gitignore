@@ -1,0 +1,56 @@
+# =========================
+# PHP
+# =========================
+
+# Composer (if you add it later)
+vendor/
+
+# Environment files
+.env
+.env.*
+
+# PHP error logs
+*.log
+
+
+# =========================
+# XAMPP / Local Server
+# =========================
+
+# Ignore local database dumps
+*.sql
+
+# Ignore uploaded files (if you add uploads later)
+public/uploads/
+
+
+# =========================
+# IDE / Editors
+# =========================
+
+# VS Code
+.vscode/
+
+# PHPStorm
+.idea/
+
+
+# =========================
+# OS Files
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.cache
